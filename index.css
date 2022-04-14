@@ -6,6 +6,8 @@ body {
   display: flex;
 }
 
+/* ASIDE */
+
 #aside {
   display: flex;
   justify-content: center;
@@ -14,27 +16,33 @@ body {
   max-width: 300px;
   background-color: #040b14;
 }
+
 #aside #aside_list {
   padding: 40px 0;
   position: fixed;
   text-align: center;
 }
+
 #aside #aside_profile {
   margin-bottom: 50px;
 }
+
 #aside #aside_profile #aside_img {
   width: 130px;
   /* height: 120px; */
   margin: 20px 0;
   border-radius: 10%;
 }
+
 #aside #aside_profile #aside_name {
   color: white;
   margin-bottom: 5px;
 }
+
 #aside #aside_profile #aside_desc {
   color: #575757;
 }
+
 #aside #aside_nav {
   display: flex;
   flex-direction: column;
@@ -48,12 +56,15 @@ body {
   display: inline-block;
   transition: font-size 0.3s ease-in-out;
 }
+
 #aside #aside_nav span:hover {
   font-size: 20px;
 }
+
 #aside #aside_nav span div {
   text-align: center;
 }
+
 #aside #aside_nav span div a {
   text-decoration: none;
   font-family: "Noto Sans KR", sans-serif;
@@ -62,12 +73,15 @@ body {
   line-height: 30px;
 }
 
+/* CONTAINER */
+
 #container {
-  /* position: relative; */
   width: 70%;
   padding-top: 15px;
   background-color: white;
 }
+
+/* HEADER */
 
 header {
   width: 100%;
@@ -96,6 +110,8 @@ header #info p {
   text-align: center;
   font-family: "Jua", sans-serif;
 }
+
+/* MAIN */
 
 main {
   clear: both;
@@ -136,6 +152,8 @@ main section p {
   color: #858585;
 }
 
+/* FOOTER */
+
 footer {
   width: 100%;
   height: 50px;
@@ -147,16 +165,20 @@ footer {
 
   margin: 20px 0;
 }
+
 footer #wrap {
   width: 85%;
   margin: 0 auto;
   /* padding: 10px; */
 }
+
 footer #left,
 footer #right {
   width: 50%;
   float: left;
 }
+
+/* TOP BUTTON */
 
 #topBtn {
   position: fixed;

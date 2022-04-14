@@ -31,6 +31,8 @@ for (var i = 0; i < aTags.length; i++) {
   };
 }
 
+// top 버튼 클릭 시 브라우저 최상단으로 scroll 이동하기
+
 let topBtn = document.getElementById("topBtn");
 topBtn.addEventListener("click", function () {
   // selected 클래스 모두 remove 하기
